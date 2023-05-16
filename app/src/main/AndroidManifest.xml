@@ -10,6 +10,9 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.AppLand">
         <activity
+                android:name=".ViewRoomDetail"
+                android:exported="true"/>
+        <activity
                 android:name=".room_list_item"
                 android:exported="true"/>
         <activity

@@ -1,5 +1,6 @@
 package com.h2square.appland.datas
 
+import java.io.Serializable
 import java.text.NumberFormat
 import java.util.*
 
@@ -8,7 +9,7 @@ class Room(
     val address:String,
     val floor:Int,
     val discription:String
-) {
+) : Serializable {
 
     fun getFormattedPrice():String{
         if (this.price>=10000){
