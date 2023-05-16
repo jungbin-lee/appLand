@@ -10,7 +10,7 @@ class Room(
     val floor:Int,
     val discription:String
 ) : Serializable {
-
+//직렬화
     fun getFormattedPrice():String{
         if (this.price>=10000){
             val uk = this.price/10000
